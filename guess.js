@@ -13,11 +13,11 @@ while(true)
         alert("Game End");
         break;
     }
-    else if(inp>guess){
+    else if(inp>ng){
         alert("Hint : your guess was too large");
         inp = prompt(`Wrong Guess, Try Again!!!`);
     }
-    else if(inp<guess){
+    else if(inp<ng){
         alert("Hint : your guess was too small");
         inp = prompt(`Wrong Guess, Try Again!!!`);
     }
