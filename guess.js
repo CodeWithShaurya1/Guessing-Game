@@ -14,6 +14,6 @@ while(true)
         break;
     }
     else{
-        inp = prompt(`Guess a number between 1 to ${r}`);
+        inp = prompt(`Wrong Guess, Try Again!!!`);
     }
 }
