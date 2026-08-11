@@ -1,20 +1,42 @@
-Number Guessing Game 
+# Number Guessing Game
 
-A simple JavaScript game where the computer generates
-a random number and the user tries to guess it.
+A simple number guessing game created using JavaScript.
 
-Features:
+## About
+
+The computer generates a random number between 1 and the
+maximum number entered by the user.
+
+The player has to keep guessing until they find the correct number.
+
+## How to Play
+
+1. Enter the maximum number.
+2. The computer generates a random number between 1 and that number.
+3. Enter your guess.
+4. Keep guessing until you find the correct number.
+5. Enter `quit` to exit the game.
+
+## Features
+
 - Random number generation
 - Unlimited guesses
-- Quit option
 - Win detection
+- Quit option
 
-How to play:
-1. Enter the maximum number.
-2. Guess the generated number.
-3. Keep guessing until you win.
-4. Type "quit" to exit.
+## Technologies Used
 
-Technologies:
 - HTML
 - JavaScript
+
+## What I Practiced
+
+- Variables
+- `Math.random()`
+- `Math.floor()`
+- `while` loops
+- `if/else`
+- `break`
+- `prompt()`
+- `alert()`
+- Template literals
